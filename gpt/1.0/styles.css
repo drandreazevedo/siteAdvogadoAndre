@@ -1,0 +1,166 @@
+/* styles.css */
+
+:root {
+  --primary: #0b1f3a;
+  --accent: #c5a46d;
+  --light: #f5f7fa;
+  --text: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.btn {
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.secondary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.large {
+  padding: 14px 20px;
+}
+
+.hero {
+  background: var(--light);
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.highlights {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+.alt {
+  background: var(--light);
+}
+
+.cards {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.destaque {
+  border: 2px solid var(--accent);
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
+.steps div {
+  margin-bottom: 10px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+}
+
+.cta-final {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--primary);
+  color: #fff;
+}
+
+.footer {
+  background: #111;
+  color: #ccc;
+  padding: 30px;
+  text-align: center;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
