@@ -1,2 +1,3 @@
-# Site de Advogado - André
-A versão final utilizada encontra-se em ```./claude/3.1/```
+# Site de Advogado - Dr. André
+
+Site Institucional com intuito de divulgação de serviços de advogado.
