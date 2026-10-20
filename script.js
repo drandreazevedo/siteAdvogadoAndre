@@ -63,6 +63,8 @@ function getHeaderHeight() {
 
 /** Encontra o identificador de seção mais próximo para uso no tracking. */
 function getSectionId(element) {
+  const area = element.closest('#bancario, #saude, #familia');
+  if (area) return area.id;
   const section = element.closest('section[id], header[id]');
   return section ? section.id : 'unknown';
 }
