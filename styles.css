@@ -484,7 +484,7 @@ svg { display: block; }
   padding-block: var(--space-3xl);
 }
 
-/* Featured – Saúde */
+/* Featured – Direito Bancário */
 .area-featured {
   position: relative;
   background: var(--color-navy);
@@ -566,6 +566,7 @@ svg { display: block; }
   flex-shrink: 0;
 }
 .area-icon svg { width: 28px; height: 28px; }
+.area-icon-banking { background: rgba(184,147,90,.15); color: var(--color-gold); }
 .area-icon-health { background: rgba(184,147,90,.15); color: var(--color-gold); }
 .area-icon-family { background: rgba(30,80,150,.1); color: #5B8FD6; }
 .area-icon-consumer { background: rgba(60,140,80,.1); color: #5BA47A; }
@@ -614,7 +615,7 @@ svg { display: block; }
   border-color: var(--color-gray-200);
 }
 
-/* Area grid (família + consumidor) */
+/* Area grid (saúde + família) */
 .area-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
