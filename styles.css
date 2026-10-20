@@ -456,7 +456,8 @@ svg { display: block; }
 .hc-1 {
   background: rgba(184,147,90,.12);
   border-color: rgba(184,147,90,.3);
-  transform: translateX(12px);
+  /* Os três cartões ficam alinhados pelo mesmo eixo. */
+  transform: none;
 }
 .hero-card:hover { transform: translateX(0) scale(1.01); }
 .hc-1:hover { transform: translateX(0) scale(1.01); background: rgba(184,147,90,.18); }
