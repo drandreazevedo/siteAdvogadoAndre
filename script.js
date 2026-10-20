@@ -25,22 +25,12 @@
  * @param {string} location - Identificador da localização na página (ex: 'hero', 'area-saude').
  */
 function trackWhatsAppClick(location) {
-  // Google Analytics 4 (GA4)
-  // if (typeof gtag === 'function') {
-  //   gtag('event', 'whatsapp_click', { event_category: 'CTA', event_label: location });
-  // }
-
-  // Google Tag Manager (via dataLayer)
-  // if (window.dataLayer) {
-  //   window.dataLayer.push({ event: 'whatsapp_click', cta_location: location });
-  // }
-
-  // Meta Pixel
-  // if (typeof fbq === 'function') {
-  //   fbq('track', 'Contact', { content_name: 'WhatsApp CTA', content_category: location });
-  // }
-
+  // Evento local para uso futuro pelo Google Tag Manager, quando configurado.
+  // Clique no WhatsApp não é contrato nem conversão confirmada.
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: 'whatsapp_click', cta_location: location });
   console.log('[Tracking] WhatsApp CTA clicado:', location);
+
 }
 
 /**
@@ -207,6 +197,17 @@ function getSectionId(element) {
    6. TRACKING CTAs – WhatsApp e Instagram
    ================================================================ */
 (function initCTATracking() {
+  // As mensagens pré-preenchidas deixam claro o assunto, sem oferecer consulta gratuita.
+  var temas = { saude: 'Direito da Saúde', familia: 'divórcio ou inventário', bancario: 'Direito Bancário' };
+  document.querySelectorAll('.js-whatsapp-cta').forEach(function (el) {
+    var area = el.closest('#saude, #familia, #bancario');
+    var tema = area ? temas[area.id] : null;
+    var mensagem = tema
+      ? 'Olá, gostaria de solicitar atendimento jurídico particular sobre ' + tema + '.'
+      : 'Olá, gostaria de solicitar atendimento jurídico particular.';
+    el.href = 'https://wa.me/5521995461760?text=' + encodeURIComponent(mensagem);
+  });
+
   // WhatsApp CTAs
   document.querySelectorAll('.js-whatsapp-cta').forEach(function (el) {
     el.addEventListener('click', function () {
