@@ -29,6 +29,13 @@ function trackWhatsAppClick(location) {
   // Clique no WhatsApp não é contrato nem conversão confirmada.
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({ event: 'whatsapp_click', cta_location: location });
+  // A conversão só é enviada após um clique real no botão. As CTAs abrem nova aba,
+  // portanto não é necessário atrasar ou redirecionar a navegação com event_callback.
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-17997476689/5roOCI_M76MdENHm7oVD'
+    });
+  }
   console.log('[Tracking] WhatsApp CTA clicado:', location);
 
 }
