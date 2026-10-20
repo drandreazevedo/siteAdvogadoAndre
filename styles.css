@@ -589,6 +589,9 @@ svg { display: block; }
   max-width: 560px;
 }
 .area-card .area-desc { color: var(--color-text-light); }
+/* Destaques contidos, preservando o contraste em fundos claro e escuro. */
+.area-desc strong { font-weight: 700; color: var(--color-white); }
+.area-card .area-desc strong { color: var(--color-navy); }
 
 /* Area cases */
 .area-cases {
