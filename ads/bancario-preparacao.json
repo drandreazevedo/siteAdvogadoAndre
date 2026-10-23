@@ -1,0 +1,159 @@
+{
+  "purpose": "Especificação interna; não é arquivo de importação da API nem comprovação de criação.",
+  "source": "Proposta_Bancario_RJ.md, auditoria de 22/10/2026; preserva decisões anteriores.",
+  "name": "Bancário RJ – Pesquisa",
+  "status": "PAUSED",
+  "activation_authorized": false,
+  "currency": "BRL",
+  "daily_average_budget": 10,
+  "max_cpc": 5,
+  "bidding": "MAXIMIZE_CLICKS",
+  "network": "GOOGLE_SEARCH_ONLY",
+  "location": "Estado do Rio de Janeiro",
+  "location_option": "PRESENCE",
+  "language": "pt",
+  "final_url": "https://drandreazevedo.github.io/siteAdvogadoAndre/bancario.html",
+  "conversion": {
+    "send_to": "AW-17997476689/5roOCI_M76MdENHm7oVD",
+    "meaning": "Clique no WhatsApp; não comprova mensagem, consulta ou contrato.",
+    "last_recorded_role": "SECONDARY",
+    "live_receipt_verified": false,
+    "change_global_goals": false
+  },
+  "ad_groups": [
+    {
+      "name": "Engenharia social e golpes bancários",
+      "keywords": [
+        "\"advogado golpe pix\"",
+        "[advogado golpe falsa central]",
+        "[advogado golpe falso funcionário do banco]",
+        "[advogado golpe do falso advogado]"
+      ],
+      "headlines": [
+        "Advogado Para Fraudes no RJ",
+        "Golpes Bancários e Pix",
+        "Pix Após Indução Fraudulenta",
+        "Golpe da Falsa Central",
+        "Falso Funcionário do Banco",
+        "Fraude do Falso Advogado",
+        "Avaliação Jurídica Particular",
+        "Atendimento no Rio de Janeiro",
+        "Relate Seu Caso Por Escrito",
+        "Fraudes Por Engenharia Social",
+        "Solicitar Atendimento",
+        "Análise Individual do Caso"
+      ],
+      "descriptions": [
+        "Advogado para avaliar fraudes bancárias, com Pix feito pela vítima após ser enganada.",
+        "Falsa central e falso funcionário: relate por escrito os fatos para avaliação jurídica.",
+        "Falso advogado: avaliação de fraudes que envolveram operações bancárias.",
+        "Atendimento jurídico particular no RJ. Cada situação depende de análise individual."
+      ]
+    },
+    {
+      "name": "Transações bancárias não reconhecidas",
+      "keywords": [
+        "[advogado pix não reconhecido]",
+        "[advogado saque não reconhecido]",
+        "[advogado transação bancária não reconhecida]",
+        "[advogado transferência não reconhecida]"
+      ],
+      "headlines": [
+        "Transações Não Reconhecidas",
+        "Advogado Bancário no RJ",
+        "Pix Não Reconhecido",
+        "Transferências Contestadas",
+        "Saques Não Reconhecidos",
+        "Atendimento Particular",
+        "Análise Individual do Caso",
+        "Relate Seu Caso Por Escrito",
+        "Avaliação Pelo Advogado",
+        "Solicitar Atendimento",
+        "Fraudes em Operações Bancárias",
+        "Atendimento no Rio de Janeiro"
+      ],
+      "descriptions": [
+        "Advogado para avaliar Pix, transferências e saques que você não reconhece.",
+        "Relate por escrito o ocorrido. A análise jurídica será realizada pelo advogado.",
+        "Atendimento particular no RJ para avaliar prejuízos em operações bancárias contestadas.",
+        "Cada caso exige análise dos fatos e registros. Solicite atendimento jurídico particular."
+      ]
+    },
+    {
+      "name": "Empréstimos e consignados fraudulentos",
+      "keywords": [
+        "[advogado consignado fraudulento]",
+        "[advogado empréstimo após golpe]",
+        "[advogado empréstimo não contratado]",
+        "[advogado empréstimo não reconhecido]"
+      ],
+      "headlines": [
+        "Empréstimos Fraudulentos",
+        "Consignado Não Contratado",
+        "Advogado Bancário no RJ",
+        "Empréstimo Após Golpe",
+        "Contrato Não Reconhecido",
+        "Fraudes em Consignados",
+        "Avaliação Jurídica Particular",
+        "Relate Seu Caso Por Escrito",
+        "Análise Individual do Caso",
+        "Solicitar Atendimento",
+        "Atendimento no Rio de Janeiro",
+        "Contratação Mediante Fraude"
+      ],
+      "descriptions": [
+        "Advogado para avaliar empréstimos não contratados ou realizados após indução fraudulenta.",
+        "Consignado não reconhecido? Relate por escrito os fatos para avaliação pelo advogado.",
+        "Atendimento jurídico particular no RJ. Análise individual dos fatos e registros.",
+        "Avaliação de possíveis fraudes e manipulação da vítima na contratação de empréstimos."
+      ]
+    }
+  ],
+  "negative_keywords": {
+    "broad": [
+      "gratis",
+      "grátis",
+      "gratuito",
+      "gratuita",
+      "gratuitos",
+      "gratuitas",
+      "defensoria",
+      "curso",
+      "cursos",
+      "concurso",
+      "concursos",
+      "vaga",
+      "vagas",
+      "estagio",
+      "estágio",
+      "salario",
+      "salário",
+      "faculdade",
+      "apostila"
+    ],
+    "phrase": [
+      "advogado criminalista",
+      "defesa criminal",
+      "revisão de juros",
+      "revisao de juros",
+      "revisional de financiamento",
+      "limpar nome"
+    ],
+    "exact": [
+      "golpe pix",
+      "como cancelar pix",
+      "como recuperar pix",
+      "o que é engenharia social",
+      "telefone do banco",
+      "boletim de ocorrência online"
+    ]
+  },
+  "activation_requirements": [
+    "Homologar secretária no Chatwoot, inclusive intervenção humana e duplicidade.",
+    "Confirmar alertas e custo completo da automação.",
+    "Validar recebimento do evento na conta Google Ads sem confundir clique com contato.",
+    "Revisar campanha salva PAUSADA e conferir URL publicada.",
+    "Obter autorização específica de pagamento e ativação."
+  ]
+}
+
