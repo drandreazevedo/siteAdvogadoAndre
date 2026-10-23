@@ -1,5 +1,5 @@
 {
-  "purpose": "Especificação interna; não é arquivo de importação da API nem comprovação de criação.",
+  "purpose": "Especificação interna e registro da campanha existente. Não importar como nova campanha.",
   "source": "Proposta_Bancario_RJ.md, auditoria de 22/10/2026; preserva decisões anteriores.",
   "name": "Bancário RJ – Pesquisa",
   "status": "PAUSED",
@@ -18,7 +18,10 @@
     "meaning": "Clique no WhatsApp; não comprova mensagem, consulta ou contrato.",
     "last_recorded_role": "SECONDARY",
     "live_receipt_verified": false,
-    "change_global_goals": false
+    "change_global_goals": false,
+    "action_id": "7859856911",
+    "last_reported_event_ping_brasilia": "2026-10-21 23:57",
+    "technical_ping_reported": true
   },
   "ad_groups": [
     {
@@ -154,6 +157,17 @@
     "Validar recebimento do evento na conta Google Ads sem confundir clique com contato.",
     "Revisar campanha salva PAUSADA e conferir URL publicada.",
     "Obter autorização específica de pagamento e ativação."
-  ]
+  ],
+  "observed_account_state": {
+    "source": "Retorno da consulta autenticada Work de 23/10/2026 transmitido pelo titular",
+    "campaign_id": "24376995759",
+    "status": "PAUSED",
+    "impressions": 0,
+    "clicks": 0,
+    "cost_brl": 0,
+    "call_goal_inherited": true,
+    "low_volume_keywords": 9,
+    "ad_strength": "Ruim nos três anúncios",
+    "no_duplicate": true
+  }
 }
-
